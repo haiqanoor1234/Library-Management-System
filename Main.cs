@@ -1,15 +1,6 @@
 using Library_Management_System;
 
-/* 
- * This application does not include validation to keep it as simple as possible to understand.
- * The goal of this program is to make use of generic lists in C#.
- * We will create an application where we can Add, Remove, and Display books contained in the generic list.
- * https://www.tutorialspoint.com/What-is-a-generic-List-in-Chash
-*/
 
-// This is a generic List in C#, where Book is the type of objects it will store
-// List already contains methods such as Add, Remove, RemoveAt, and so on. Therefore, we will use it in our application.
-List<Book> books = new List<Book>(); 
 
 // Initial Books
 // books.Add() expects the object to be passed, which is why we pass "new Book()" and not just the book information.
